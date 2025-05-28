@@ -35,6 +35,8 @@ qt6-wayland
 
 obs-studio
 
+zsh
+
 gtk4.0
 
 tlp (if on laptop)
