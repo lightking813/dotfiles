@@ -12,6 +12,7 @@
 },
 "modules": [
     "break",
+    "title",
     {
     "type": "os",
     "key": " DISTRO",
@@ -71,11 +72,6 @@
     {
     "type": "uptime",
     "key": "│ ├󰅐",
-    "keyColor": "green"
-    },
-    {
-    "type": "display",
-    "key": "│ └󰍹",
     "keyColor": "green"
     },
     {
