@@ -1,0 +1,6 @@
+{
+    "device": "alsa_input.pci-0000_0a_00.0.analog-stereo",
+    "device-description": "CA0132 Sound Core3D [Sound Blaster Recon3D / Z-Series / Sound BlasterX AE-5 Plus] (SB1570 SB Audigy Fx) Analog Stereo",
+    "device-profile": "",
+    "preset-name": "Mic"
+}
