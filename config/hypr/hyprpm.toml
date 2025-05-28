@@ -1,0 +1,48 @@
+[repository]
+name = "hyprgrass"
+authors = ["horriblename"]
+commit_pins = [
+    # Hyprland commit                          ,  hyprgrass commit
+    ["e93fbd7c4f991cb8ef03e433ccc4d43587923e15", "091d0e9a9877d08d5d4f51eb71e255b8c78ffd89"],
+    ["fe7b748eb668136dd0558b7c8279bfcd7ab4d759", "091d0e9a9877d08d5d4f51eb71e255b8c78ffd89"],
+    ["cba1ade848feac44b2eda677503900639581c3f4", "f888dab948219197e2870cfd261b6f87690484a7"], # v0.40.0
+    ["ea2501d4556f84d3de86a4ae2f4b22a474555b9f", "78eb74357b428498a8225b2d753b2fe9a463f89e"], # v0.41.0
+    ["0bb3b822053c813ab6f695c9194089ccb5186cc3", "78eb74357b428498a8225b2d753b2fe9a463f89e"], # v0.42.0
+    ["0bb3b822053c813ab6f695c9194089ccb5186cc3", "78eb74357b428498a8225b2d753b2fe9a463f89e"], # v0.42.0
+    ["0f594732b063a90d44df8c5d402d658f27471dfe", "78eb74357b428498a8225b2d753b2fe9a463f89e"], # v0.43.0
+    ["0c7a7e2d569eeed9d6025f3eef4ea0690d90845d", "78eb74357b428498a8225b2d753b2fe9a463f89e"], # v0.44.0
+    ["4520b30d498daca8079365bdb909a8dea38e8d55", "78eb74357b428498a8225b2d753b2fe9a463f89e"], # v0.44.1
+    ["f044e4c9514ec89c4c1fc8a523ca90b8cb907fb7", "070ca398300bf5b9e1a636ca057882c0312c228d"], # CMonitor* -> PHLMONITOR
+    ["a425fbebe4cf4238e48a42f724ef2208959d66cf", "a86ed5581498186ed31241c0c246629ef771d1e6"], # v0.45.0
+    ["500d2a3580388afc8b620b0a3624147faa34f98b", "cb929099477407116031010905ce439db771dd62"], # v0.45.1
+    ["12f9a0d0b93f691d4d9923716557154d74777b0a", "cb929099477407116031010905ce439db771dd62"], # v0.45.2
+    ["320144ae7288fe23686935ebb235d9fe0c900862", "0c2c3dc676cee437cece6cca67965bbaba0e45b5"], # CColor -> CHyprColor
+    ["8bbeee11734d3ba8e2cf15d19cb3c302f8bfdbf2", "b0c1287d571e829adf0b9fe17677c9e7c4277703"], # clang-tidy
+    ["254fc2bc6000075f660b4b8ed818a6af544d1d64", "9df724651ea92fc0c90ec55e0ef66048c9f76b57"], # v0.46.1
+    ["0bd541f2fd902dbfa04c3ea2ccf679395e316887", "b2a1da139bbb4e12d67c9c1569a32ce54f5ebc6b"], # v0.46.2
+    ["983bc067dac2e737bc724721c79d87cd81f27501", "33dc3b3041f3de9a7487839c92a56743e9591f7e"], # animation changes
+    ["078e13f463d56a4e773aa104bca5567b9e9c8658", "9c5a541e2d8be5e3eff3761d9695615b489023af"], # include fixups
+    ["e9510115039e7ae9fcf2778e8455e7beed3424ea", "c3fe4a20691cdede553df9b27bc3acebebee8b1c"], # CBox changes
+    ["04ac46c54357278fc68f0a95d26347ea0db99496", "f383a5cd8fbc9acc1aafbf0fccb161822833b4d6"], # v0.47.0
+    ["75dff7205f6d2bd437abfb4196f700abee92581a", "f383a5cd8fbc9acc1aafbf0fccb161822833b4d6"], # v0.47.1
+    ["882f7ad7d2bbfc7440d0ccaef93b1cdd78e8e3ff", "499fd954a95aa2a1fee6cc31c098f6daa5ead3af"], # v0.47.2
+    ["5ee35f914f921e5696030698e74fb5566a804768", "f7b6c555a064cbf04e185e83dc2db2a843da0fda"], # v0.48.0
+    ["29e2e59fdbab8ed2cc23a20e3c6043d5decb5cdc", "f7b6c555a064cbf04e185e83dc2db2a843da0fda"], # v0.48.1
+    ["ddae3036ca6a1729ffe7854a59184116d2622809", "5d2eb7ef9b5ef8d1d3154d51c2c3429aac78ec05"], # missing CConfig include
+    ["241a4935a244f403fa7108259075b04c81ed258f", "1b5ffdeb06eb4314535dc4d6e960bbc560013ca8"], # class members refactor
+    ["02d7badd15601e52547e2f3e1c594ceede0a0455", "948d4a8a05a40b4f8ead959972821659a90f0a35"], # class members refactor
+    ["2ee5118d7a4a59d3ccfaed305bfc05c79cea7637", "18cf673df9807a97ec64a9bb18830f7b8e76e923"], # class members refactor
+    ["8d6618104e28f6444d917b398244c56ac32ae993", "aca99f87998a698cbdcaa53dc113ffb2be60c946"], # helpers class members refactor
+    ["46ac115bd19ee3aff5c816033de0b1d55a74e33f", "b4b20b93b49b135b26b332454fa9a70e4f7ac4a5"], # input class members refactor
+    ["997fefbc1113323ed2bf5d782bdafc0d17532647", "40d9cc4d9529e1e81305bc2681082bdb45118ce9"], # texture class members refactor
+    ## DO NOT EDIT THIS LINE: for auto pin script ##
+]
+
+[hyprgrass]
+description = "Touch screen gestures plugin"
+authors = ["horriblename"]
+output = "build/src/libhyprgrass.so"
+build = [
+    "meson setup build",
+    "ninja -C build",
+]
