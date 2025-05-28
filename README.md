@@ -37,6 +37,8 @@ obs-studio
 
 zsh
 
+chsh -s /usr/bin/zsh (use after installing zsh to change the shell to zsh)
+
 gtk4.0
 
 tlp (if on laptop)
