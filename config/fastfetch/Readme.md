@@ -6,4 +6,4 @@ or .bashrc file located in your home directory
 unless you're like Luke Smith who redirects all his configs
 for a cleaner home directory 
 
-the txt and png files are ascii's to show the the image next to all the information
+## the txt and png files are ascii's to show the the image next to all the information
