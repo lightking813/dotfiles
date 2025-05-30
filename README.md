@@ -1,5 +1,5 @@
 # dotfiles
-Programs to get alongside dot files
+## Programs to get alongside dot files
 
 firefox
 
