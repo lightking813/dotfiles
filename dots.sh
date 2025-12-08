@@ -6,12 +6,13 @@ cd yay
 makepkg -si
 cd ~/
 sudo rm -rf yay
+curl -sS https://download.spotify.com/debian/pubkey_5384CE82BA52C83A.gpg | gpg --import -
+yay -S -y librewolf plex-media-player spotify 
 
-yay -S -y librewolf
+sudo pacman -S zsh fastfetch lutris steam alacritty grim slurp flameshot qt6-wayland obs-studio flatpak
+echo 'Restart PC to install Franz (an app to comine multiple messaging apps together)
 
-sudo pacman -S zsh fastfetch
-
-echo chsh -s /usr/bin/zsh >> .zshrc
+echo chsh -s /usr/bin/zsh >> .bashrc
 
 echo export ZSH="$HOME/.oh-my-zsh" >> .zshrc
 echo ZSH_THEME="agnosterzak" >> .zshrc
@@ -42,3 +43,5 @@ echo setopt appendhistory >> .zshrc
 
 echo #OS Show >> .zshrc 
 echo fastfetch >> .zshrc
+
+echo 'if you are on laptop make sure to install tlp with S tlp after reopening terminal'
