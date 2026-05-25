@@ -4,3 +4,8 @@ assuming the file is in your home directory
 
 P.S. you might wanna change the CPU_SCALING_MIN_FREQ_ON value to something lower i've set it to 2Ghz if you're cpu
 can't even hit that frequency there could be problems and i'm not responsible for any damage you cause to your machine.
+
+for the lines under 99-sysctl.conf make these line changes only for a host HTPC
+net.ipv4.icmp_echo_ignore_all = 0
+net.ipv6.icmp.echo_ignore_all = 0
+(normally they're set to 1 but if u want to keep it from breaking discoverability then make sure they are 0) 
