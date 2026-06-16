@@ -21,7 +21,7 @@
             "mode": "Downward",
             "output-gain": 5.0,
             "ratio": 3.5000000000000107,
-            "release": 450.0,
+            "release": 650.0,
             "release-threshold": -80.01,
             "sidechain": {
                 "lookahead": 2.0,
@@ -160,12 +160,12 @@
             "f2-q": 1.0,
             "input-gain": 0.0,
             "laxity": 85,
-            "makeup": 15.0,
+            "makeup": 25.0,
             "mode": "Split",
             "output-gain": -20.0,
             "ratio": 3.5,
             "sc-listen": false,
-            "threshold": -25.0
+            "threshold": -35.0
         },
         "equalizer#0": {
             "balance": 0.0,
@@ -174,7 +174,7 @@
             "left": {
                 "band0": {
                     "frequency": 100.0,
-                    "gain": 1.1400000000000008,
+                    "gain": -0.5499999999999993,
                     "mode": "RLC (MT)",
                     "mute": false,
                     "q": 0.71,
@@ -185,7 +185,7 @@
                 },
                 "band1": {
                     "frequency": 135.0,
-                    "gain": 2.0,
+                    "gain": -0.5499999999999993,
                     "mode": "RLC (MT)",
                     "mute": false,
                     "q": 4.36,
@@ -273,7 +273,7 @@
                 },
                 "band2": {
                     "frequency": 165.0,
-                    "gain": 0.41000000000000075,
+                    "gain": -0.38999999999999924,
                     "mode": "RLC (MT)",
                     "mute": false,
                     "q": 4.36,
@@ -284,7 +284,7 @@
                 },
                 "band3": {
                     "frequency": 252.0,
-                    "gain": 0.8300000000000007,
+                    "gain": 0.08000000000000075,
                     "mode": "RLC (MT)",
                     "mute": false,
                     "q": 4.36,
@@ -368,7 +368,7 @@
             "right": {
                 "band0": {
                     "frequency": 100.0,
-                    "gain": 1.1400000000000008,
+                    "gain": -0.5499999999999993,
                     "mode": "RLC (MT)",
                     "mute": false,
                     "q": 0.71,
@@ -379,7 +379,7 @@
                 },
                 "band1": {
                     "frequency": 135.0,
-                    "gain": 2.0,
+                    "gain": -0.5499999999999993,
                     "mode": "RLC (MT)",
                     "mute": false,
                     "q": 4.36,
@@ -467,7 +467,7 @@
                 },
                 "band2": {
                     "frequency": 165.0,
-                    "gain": 0.41000000000000075,
+                    "gain": -0.38999999999999924,
                     "mode": "RLC (MT)",
                     "mute": false,
                     "q": 4.36,
@@ -478,7 +478,7 @@
                 },
                 "band3": {
                     "frequency": 252.0,
-                    "gain": 0.8300000000000007,
+                    "gain": 0.08000000000000075,
                     "mode": "RLC (MT)",
                     "mute": false,
                     "q": 4.36,
@@ -600,9 +600,9 @@
             "input-gain": -5.0,
             "model-name": "\"\"",
             "output-gain": 5.0,
-            "release": 750.0,
+            "release": 800.0,
             "use-standard-model": true,
-            "vad-thres": 25.0,
+            "vad-thres": 20.0,
             "wet": 0.0
         },
         "rnnoise#1": {
