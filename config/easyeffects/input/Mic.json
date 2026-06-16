@@ -600,9 +600,9 @@
             "input-gain": -5.0,
             "model-name": "\"\"",
             "output-gain": 5.0,
-            "release": 700.0,
+            "release": 850.0,
             "use-standard-model": true,
-            "vad-thres": 25.0,
+            "vad-thres": 15.0,
             "wet": 0.0
         },
         "rnnoise#1": {
@@ -611,7 +611,7 @@
             "input-gain": -5.0,
             "model-name": "\"\"",
             "output-gain": 5.0,
-            "release": 650.0,
+            "release": 750.0,
             "use-standard-model": true,
             "vad-thres": 80.0,
             "wet": 0.0
